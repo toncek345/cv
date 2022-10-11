@@ -1,91 +1,130 @@
 ---
 layout: cv
-title: Isaac Newtons's CV
+title: Antonio Bosak's CV
 ---
-# Isaac Newton
-Physicist, Mathematician, Cambridge professor.
+# Antonio Bosak
+Software developer (backend)
 
 <div id="webaddress">
-<a href="isaac@applesdofall.org">isaac@applesdofall.org</a>
-| <a href="http://en.wikipedia.org/wiki/Isaac_Newton">My wikipedia page</a>
+<i class="fa-solid fa-envelope"></i>
+<a href="mailto:toni.bosak@gmail.com">toni.bosak@gmail.com</a>
+| <i class="fa-brands fa-linkedin"></i>
+<a href="https://www.linkedin.com/in/antonio-bosak-6b9865136/">Antonio Bosak</a>
+| <i class="fa-brands fa-github"></i>
+<a href="https://github.com/toncek345">toncek345</a>
 </div>
 
 
-## Currently
+## Work experience
 
-Standing on the shoulders of giants
+### Deliveroo
+`01/05/2021 - 01/10/2022`
 
-### Specialized in
+- Refactored websocket logic which resulted in 20% CPU usage decrese and decrease in disconnection
+- Increased message throughput through redis
+- Refactored tracing and logging across services
+- Removing deprecated libs & business logic (db, library migration to DataDog, removed old routemaster logic)
+- Participated in geosharding project
+- Upgraded multiple PG DBs from 9.6 -> 11+
+- Removed, updated, optimized a lot of legacy code
 
-Laws of motion, gravitation, minting coins, disliking [Robert Hooke](http://en.wikipedia.org/wiki/Robert_Hooke)
+Tags:
+- high scale
+- golang
+- backend
+- ruby
+- ruby on rails
+- aurora/postgres
+- terraform
+
+### EPTI
+`01/11/2020 - 01/05/2021`
+
+My responsibility was maintenance of existing micro-services written in golang and adding new
+features. Mainly I was responsible for fixing payment service and introduction to new payment
+providers.
+
+Tags:
+- backend
+- golang
+- postgres
+
+### Cinnamon Agency
+`16/03/2020 – 1/11/2020`
+
+For one of the clients my responsibility was consulting how to architect and write backend services
+and writing backend services with devopsing on kubernetes. 
+
+Tags: 
+- backend
+- golang
+- postgres
+- chi router
+- docker
+- devops
+- kubernetes
+- aws
+
+<div class="page-break"></div>
+
+### B2match
+`01/05/2018 – 16/03/2020`
+
+My responsibility was developing and maintaining backend services (main service, admin service
+written in ruby and small redirector service for logging purpose) and monitoring unusual events
+through GCP logging.
+
+Summary:
+- Fixing the CI/CD GitLab pipeline
+- Prototyping some functionality using headless chrome
+- Writing client consumable api
+- Added ability for users to add their custom domain which was implemented through Let's Encrypt
+- Maintaining administrator part (writing rake tasks, workers and migrations) 
+
+Tags:
+- solr
+- golang
+- gRPC
+- chi router
+- ruby
+- ruby on rails
+- sidekiq
+
+### Side projects
+`01/12/2017 - 01/05/2018`
+
+- Retroreflection project for University of Zagreb Faculty of Transport and Traffic Sciences (React, Ruby, Devops)
+- TotallyNotInstagram project for uploading pictures to only attended event through QR code (android)
+- Izi do potpora project for listing EU projects for Zagreb city (Android)
+- BronhoNote project for tagging lung bronchi in hospitals (JAVAFX)
+- UNDP project for solar panel monitoring (C, GO)
+
+### GoodCode
+`01/04/2016 – 01/12/2017`
+
+I was responsible for an internal MusicBox project which has 3 parts. Django (admin) part and golang
+(streamer and player) part. I was mainly responsible for developing features on golang part but I
+added small contributions to admin project (test fixing and sending email to client when player
+connected or disconnected). 
+
+Features added to streamer:
+- buffering with smart "continue where left" 
+- live stream support (through icy protocol) 
+- song queuing ◦ various tests and benchmarks
+
+The player part which was connected to streamer was developed for Raspberry Pi and it was written from scratch in C and then later rewritten in golang. 
+
+Feature added to player: 
+- buffering with smart continue when disconnected
+
+<div class="page-break"></div>
+
+### College demonstrator (VsiTe Zagreb)
+`01/10/2015 – 01/02/2016`
+
+Assistant during the laboratory practices in college in class programming methods and abstraction (C programming language).
 
 
-### Research interests
-
-Cooling, power series, optics, alchemy, planetary motions, apples.
-
-
-## Education
-
-`1654-1660`
-__The King's School, Grantham.__
-
-`June 1661 - now`
-__Trinity College, Cambridge__
-
-- Sizar
-
-`1667 - death`
-__Trinity College, Cambridge__
-
-- Fellow
-
-
-
-## Awards
-
-`2012`
-President, *Royal Society*, London, UK
-
-Associate, *French Academy of Science*, Paris, France
-
-
-
-## Publications
-
-<!-- A list is also available [online](http://scholar.google.co.uk/citations?user=LTOTl0YAAAAJ) -->
-
-### Journals
-
-`1669`
-Newton Sir I, De analysi per æquationes numero terminorum infinitas. 
-
-`1669`
-Lectiones opticæ.
-
-etc. etc. etc.
-
-### Patents
-
-`2012`
-Infinitesimal calculus for solutions to physics problems, [SMBC](http://www.techdirt.com/articles/20121011/09312820678/if-patents-had-been-around-time-newton.shtml) patent 001
-
-
-## Occupation
-
-`1600`
-__Royal Mint__, London
-
-- Warden
-- Minted coins
-
-`1600`
-__Lucasian professor of Mathematics__, Cambridge University
-
-
-
-<!-- ### Footer
-
-Last updated: May 2013 -->
+<!-- ### Footer Last updated: May 2013 -->
 
 
