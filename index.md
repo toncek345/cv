@@ -3,7 +3,8 @@ layout: cv
 title: Antonio Bosak's CV
 ---
 # Antonio Bosak
-Software developer (backend)
+Software developer  
+Bachelor in information technologies (VsiTe Zagreb)
 
 <div id="webaddress">
 <i class="fa-solid fa-envelope"></i>
@@ -14,115 +15,71 @@ Software developer (backend)
 <a href="https://github.com/toncek345">toncek345</a>
 </div>
 
+### Skills
+Golang | Ruby | C/C++ | gRPC | Ruby on Rails | Git | PostgreSQL | MySQL  
+Redis | NoSQL | Docker | SQLite | Kubernetes | CI/CD | AWS | GCP  
+Solr | Websockets | Microservices | Terraform | Kafka | Lisp | HBase | TDD  
+Linux | Android | Monitoring | Python | Javascript | CSS | React | Node  
 
-## Work experience
+### Deliveroo (contract)
+<i>Golang Backend developer at restaurant Scalability Team</i> `05/2021 - 10/2022` 
 
-### Deliveroo
-`01/05/2021 - 01/10/2022`
-
-- Refactored websocket logic which resulted in 20% CPU usage decrese and decrease in disconnection
-- Increased message throughput through redis
-- Refactored tracing and logging across services
-- Removing deprecated libs & business logic (db, library migration to DataDog, removed old routemaster logic)
-- Participated in geosharding project
-- Upgraded multiple PG DBs from 9.6 -> 11+
-- Removed, updated, optimized a lot of legacy code
-
-Tags:
-- high scale
-- golang
-- backend
-- ruby
-- ruby on rails
-- aurora/postgres
-- terraform
+- Refactored websocket logic which resulted in 20% CPU usage decrease and decrease in disconnection
+- Decreased internal API latency by 75% by implementing correct indices
+- Decreased latency of sending messages through Redis in peak times to 1ms
+- Added contextual tracing and logging
+- Removing deprecated databases used by old services still in production
+- Removed deprecated libraries (routemaster, newrelic)
+- Upgraded multiple PostgreSQL DBs from 9.6 -> 11+
+- Participated in geosharding project (integer migrations, introduction of new type of identifier)
 
 ### EPTI
-`01/11/2020 - 01/05/2021`
+<i>Golang Backend developer for Zepter webshop</i> `11/2020 - 05/2021`
 
-My responsibility was maintenance of existing micro-services written in golang and adding new
-features. Mainly I was responsible for fixing payment service and introduction to new payment
-providers.
-
-Tags:
-- backend
-- golang
-- postgres
+- Maintenance and additional feature adding in Golang payments microservice
+- Adding new payment providers
+- Helping other developers with other parts of system that use Golang (gateway, invoice templating, ERP sync, inventory and user facing API)
 
 ### Cinnamon Agency
-`16/03/2020 – 1/11/2020`
+<i>Golang Backend developer and devops in medical startup</i> `03/2020 – 11/2020`
 
-For one of the clients my responsibility was consulting how to architect and write backend services
-and writing backend services with devopsing on kubernetes. 
-
-Tags: 
-- backend
-- golang
-- postgres
-- chi router
-- docker
-- devops
-- kubernetes
-- aws
-
-<div class="page-break"></div>
+- Choosing authentication solution (keycloak, Auth0, Cognito, Okta) for Golang microservices
+- Refined microservice responsible for generating smaller image maps from big images (10+Gb)
+- Writing Kubernetes YAML-s for existing services and moving them from AWS beanstalk
+- Writing Kubernetes sidecar helping in deploying different version of application in different region
+- Advising on how to write testable and maintainable code
 
 ### B2match
-`01/05/2018 – 16/03/2020`
+<i>Golang Backend developer for event management system</i>`05/2018 – 03/2020`
 
-My responsibility was developing and maintaining backend services (main service, admin service
-written in ruby and small redirector service for logging purpose) and monitoring unusual events
-through GCP logging.
-
-Summary:
-- Fixing the CI/CD GitLab pipeline
-- Prototyping some functionality using headless chrome
-- Writing client consumable api
+- Writing client consumable API for new features in Golang
+- Developed public facing API for whitelabel integrations
 - Added ability for users to add their custom domain which was implemented through Let's Encrypt
-- Maintaining administrator part (writing rake tasks, workers and migrations) 
-
-Tags:
-- solr
-- golang
-- gRPC
-- chi router
-- ruby
-- ruby on rails
-- sidekiq
-
-### Side projects
-`01/12/2017 - 01/05/2018`
-
-- Retroreflection project for University of Zagreb Faculty of Transport and Traffic Sciences (React, Ruby, Devops)
-- TotallyNotInstagram project for uploading pictures to only attended event through QR code (android)
-- Izi do potpora project for listing EU projects for Zagreb city (Android)
-- BronhoNote project for tagging lung bronchi in hospitals (JAVAFX)
-- UNDP project for solar panel monitoring (C, GO)
-
-### GoodCode
-`01/04/2016 – 01/12/2017`
-
-I was responsible for an internal MusicBox project which has 3 parts. Django (admin) part and golang
-(streamer and player) part. I was mainly responsible for developing features on golang part but I
-added small contributions to admin project (test fixing and sending email to client when player
-connected or disconnected). 
-
-Features added to streamer:
-- buffering with smart "continue where left" 
-- live stream support (through icy protocol) 
-- song queuing ◦ various tests and benchmarks
-
-The player part which was connected to streamer was developed for Raspberry Pi and it was written from scratch in C and then later rewritten in golang. 
-
-Feature added to player: 
-- buffering with smart continue when disconnected
+- Monitoring unusual events through GCP
+- CI/CD GitLab
+- Developing new administrator features in Ruby on Rails
 
 <div class="page-break"></div>
 
-### College demonstrator (VsiTe Zagreb)
-`01/10/2015 – 01/02/2016`
+### GoodCode
+<i>Golang Backend developer for music streaming app</i> `04/2016 – 12/2017`
 
-Assistant during the laboratory practices in college in class programming methods and abstraction (C programming language).
+- Wrote music player for Raspberry Pi in C and later on rewrote it in Golang
+- Added buffering on server streamer, live stream support and song queuing
+- Developed a solution to smartly continue MP3 playing where left when disconnected due to network error
+
+### Side projects
+
+- "Retroreflection" project for measuring the amount of retroreflection fade from street lines for
+  University of Zagreb Faculty of Transport and Traffic Sciences (React, Ruby, Devops)
+- "TotallyNotInstagram" project for entering a shared add only gallery accessible through QR code (Android)
+- "Izi do potpora" project for listing EU projects for Zagreb city (Android)
+- "BronhoNote" project for tagging lung bronchi in hospitals (JAVAFX)
+- "UNDP" project for solar panel monitoring (C, GO)
+
+### College (VsiTe)
+Demonstrator Assistant during the laboratory practices in college in class programming methods and
+abstraction (C programming language).
 
 
 <!-- ### Footer Last updated: May 2013 -->

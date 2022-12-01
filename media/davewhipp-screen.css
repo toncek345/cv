@@ -53,45 +53,6 @@ table {
     border-spacing: 0;
 }
 
-/* end of reset */
-
-
-@media only screen and (max-width: 595px) {
-    #content {
-	margin-left: 0;
-	margin-right: 0;
-    }
-}
-
-@media only screen and (min-width: 600px) {
-    #content {
-	margin-left: 5%;
-	margin-right: 5%;
-    }
-}
-
-@media only screen and (min-width: 768px) {
-    #content {
-	margin-left: 10%;
-	margin-right: 10%;
-    }
-}
-
-@media only screen and (min-width: 1400px) {
-    #content {
-	margin-left: 15%;
-	margin-right: 15%;
-    }
-}
-
-@media only screen and (min-width: 1800px) {
-    #content {
-	margin-left: 25%;
-	margin-right: 25%;
-	max-width: 1200px;
-    }
-}
-
 p {
     position: relative;
     left: 25%;
@@ -105,6 +66,8 @@ code {
     /*line-height: 1em;*/
     font-family: Monaco,Menlo,monospace,sans-serif;
     color: #777;
+    position: absolute;
+    left: 60%;
 }
 
 
@@ -113,21 +76,12 @@ ul {
     left: 25%;
     width: 75%;
     margin-bottom: 1.5em;
-    margin-top: -0.5em;
 }
-
-/*uncomment to get dashes in the list*/
-/*li:before {
-	content: "-";
-	position: relative;
-	left: -0.25em;
-}*/
 
 li {
     /*second line indent*/
     padding-left: 1.25em;
     text-indent: -1.25em;
-    /*color: #777;*/
 }
 
 li ul {
@@ -168,12 +122,22 @@ h2 {
 }
 
 h3 {
-    font-size: 1em;
     line-height: 2em;
     position: relative;
     top: 1.7em;
     text-align: right;
+    font-weight: bold;
     width: 20%;
+}
+
+h3+p {
+    margin-bottom: 0;
+}
+
+i {
+    font-style: italic;
+    font-weight: 450;
+    font-size: 1.1em;
 }
 
 a {
