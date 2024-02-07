@@ -56,6 +56,8 @@ Linux | Android | Monitoring | Python | Javascript | CSS | React | Node
 - Developed a Kubernetes sidecar to facilitate deployment of different application versions across multiple regions.
 - Provided guidance on writing testable and maintainable code practices.
 
+<div class="page-break"></div>
+
 ### B2match
 <i>Golang Backend developer for event management system</i>`05/2018 – 03/2020`
 
@@ -65,8 +67,6 @@ Linux | Android | Monitoring | Python | Javascript | CSS | React | Node
 - Implemented monitoring solutions on Google Cloud Platform (GCP) to detect and respond to unusual events.
 - Established Continuous Integration/Continuous Deployment (CI/CD) pipelines using GitLab.
 - Developed new administrator features using Ruby on Rails to enhance system functionality.
-
-<div class="page-break"></div>
 
 ### GoodCode
 <i>Golang Backend developer for music streaming app</i> `04/2016 – 12/2017`
