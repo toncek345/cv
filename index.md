@@ -24,7 +24,7 @@ Linux | Android | Monitoring | Python | Javascript | CSS | React | Node
 ### Eiger (contract)
 <i>Golang devops engineer</i> `02/2023 -` 
 
-- Led the development of a custom AWS platform designed for private blockchains.
+- Participated in development of a custom AWS platform designed for private blockchains.
 - Utilized technologies such as Golang, Pulumi, SQS, SNS, and Kubernetes (K8S).
 - Integrated support for popular blockchains including EVMOS and Polygon.
 
